@@ -1,0 +1,5 @@
+config HELLO
+    tristate "hello"
+    depends on TRACEPOINTS
+    help
+      This is a hello module for learning.
